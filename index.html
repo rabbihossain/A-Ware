@@ -1,0 +1,147 @@
+<html><head>
+    <meta charset="utf-8">
+	<title>Aware - We care about your privacy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    </head><body>
+    <div class="cover" id="home-page">
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img height="20" alt="Brand" src="aware-logo-small.png"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#contact-page">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="cover-image" style="background-image : url('IU6HNPC2NT.jpg')"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <img src="aware-logo-small.png" class="center-block img-responsive">
+            <h1 class="text-center text-inverse">We Care About Your Privacy</h1>
+            <br>
+            <br>
+            <a class="btn btn-lg btn-primary" href="#contact-page"><i class="fa fa-fw fa-envelope-o"></i>&nbsp;Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="contact-page">
+      <div class="background-image background-image-fixed" style="background-image : url('http://pingendo.github.io/pingendo-bootstrap/assets/blurry/800x600/14.jpg')"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-header">
+              <h1 class="text-center">Send us an email to <a href="mailto:info@a-ware.io" style="
+    text-decoration: underline;
+    color: white;">info@a-ware.io</a></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="background-image background-image-fixed" style="background-image : url('http://pingendo.github.io/pingendo-bootstrap/assets/blurry/800x600/14.jpg')"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="text-center">Or fill this contact form to Get In Touch</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="background-image background-image-fixed" style="background-image : url('http://pingendo.github.io/pingendo-bootstrap/assets/blurry/800x600/14.jpg')"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="col-md-12 text-center">
+              <form role="form" action="http://formspree.io/info@a-ware.io" method="POST">
+                <div class="form-group has-feedback">
+                  <input class="form-control input-lg" id="exampleInputEmail1" placeholder="Full Name" type="text" name="name">
+                </div>
+                <div class="form-group has-feedback">
+                  <input class="form-control input-lg" id="exampleInputEmail1" placeholder="Enter email" type="email" name="_replyto">
+                  <span class="fa fa-check form-control-feedback"></span>
+                </div>
+                <div class="form-group">
+                  <label class="control-label"></label>
+                  <textarea class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Aware</h1>
+            <p>Copyright 2016. All rights reserved.</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-info text-right">
+              <br>
+              <br>
+            </p>
+            <div class="row">
+              <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
+                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 hidden-xs text-right">
+                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-muted"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-muted"></i></a>
+                <a href="#"><i class="fa fa-3x fa-facebook fa-fw text-muted"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-github text-muted"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script>
+      $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+    </script>
+</body></html>

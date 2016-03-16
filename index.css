@@ -6737,7 +6737,7 @@ body {
   top: 0px;
   width: 100%;
   border: none;
-  background-color: transparent !important;
+  background-color: rgba(221, 221, 221, 0.82 !important;
 }
 .cover .navbar .navbar-nav li.active a {
   background-color: transparent !important;
